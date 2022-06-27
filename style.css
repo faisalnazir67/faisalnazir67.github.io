@@ -1,0 +1,175 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    padding: 5%;
+}
+
+a.navbar{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+#navbar-div{
+    display: none;
+    justify-content: flex-end;
+    column-gap: 15px;
+    padding: 10px 40px;
+   
+    font-weight: 500;
+}
+
+#backdrop{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    column-gap: 25px;
+    padding: 0px 8%;
+    margin-top: 5%;
+    text-align: center;
+}
+img.dp{
+    width: 200px;
+    height: auto;
+}
+@media screen and (min-width:500px) {
+    #backdrop{
+        flex-direction: row;
+        text-align: left;
+    }
+    #backdrop-leftcolumn{
+        width: 50%;
+    }
+    img.dp{
+        width: 300px;
+      
+    }
+    #backdrop-rightcolumn{
+        width: 45%;
+        
+    }
+    #navbar-div{
+        display: flex;
+    }
+
+  
+
+    
+}
+
+
+#backdrop-leftcolumn{
+    width: 90%;
+    color: #21243d;
+}
+
+#backdrop-rightcolumn{
+    width: 100%;
+    text-align: center;
+}
+#backdrop-leftcolumn>h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+#backdrop-leftcolumn>p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#backdrop-leftbutton{
+    background-color: #64b4ff;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 0;
+}
+#recentblog{
+   background-color: #edf7fa;
+    padding: 1.5% 8%;
+}
+#recent-post{
+    display: flex;
+    justify-content: space-between;
+}
+#recent-post>h4{
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243d;
+    margin: 0;
+}
+div.card2{
+    color: #21243d;
+    font-weight: 400;
+    background-color:white;
+    border-radius: 5px;
+    padding: 20px 22px;
+}
+h2.myh2{
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+div.card2>span{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+div.card2>p{
+    font-size: 16px;
+}
+#cardcontainer{
+    display: flex;
+    column-gap: 1%;
+}
+a{
+    text-decoration: none;
+}
+
+section.featuredworks{
+    background-color: white;
+    padding: 1.5% 8%;
+}
+div.horizontalcard{
+    display: flex;
+    column-gap: 3%;
+}
+span.pill{
+    background-color: #142850;
+    padding: 1.5px 15px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+}
+div.horizontalcard>div>p{
+    color: #21243d;
+    font-size: 16px;
+}
+div.horizontalcard>img{
+    border-radius: 6px;
+}
+section.featuredworks>h4{
+    text-align: left;
+    color: #21243d;
+    font-size: 22px;
+}
+#socialmedia{
+   display: flex;
+    font-size: 26px;
+    color: #21243d;
+    justify-content: center;
+    column-gap: 15px;
+    align-items: baseline;
+}
+#socialmedia>a{
+    color: #21243d;
+}
+#p2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #21243d;
+
+}
